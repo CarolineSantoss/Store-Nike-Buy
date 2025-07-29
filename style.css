@@ -1,0 +1,462 @@
+/* Geral Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+
+body {
+    background: #dcd9d174;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Oswald", sans-serif;
+}
+
+/* ~Cabeçalho */
+header{
+    background-color: #000;
+    height: 6vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-header{
+    display: flex;
+    position: relative;
+    align-items: center;
+    padding-left: 300px;
+}
+
+.text {
+color: #c8553d;
+font-weight: bold;
+font-size: 1.5rem;
+padding-right: 5px;
+
+}
+
+span {
+color: #fff;
+font-weight: bold;
+font-size: 1.5rem;
+}
+
+/* Navegação */
+nav, ul, li{
+    list-style: none;
+    display: flex;
+    color: #fff;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    font-weight: normal;
+    cursor: pointer;
+    font-size: 1.4rem;
+    gap: 10px;
+    padding-right: 50px;
+
+}
+
+
+.link {
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+.link:hover {
+color: #c8553d;
+transition: all 0.5s;
+}
+
+/* Conteudo */
+.hero {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.hero-img {
+    position: relative;
+    margin-left: 300px;
+    margin-top: 30px;
+    padding-left: 0px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.hero-title {
+    position: relative;
+    margin: 10px auto;
+    padding-top: 50px;
+  
+}
+
+.title-principal{
+    text-transform: uppercase;
+    color: #ff6f59;
+    font-family:"Bebas Neue", sans-serif;
+    font-size: 100px;
+    font-weight: bold;
+    margin: 0 auto;
+    padding-top: 40px;
+    justify-content: center;
+    
+}
+
+.sub-title{
+    text-transform: uppercase;
+    color: #212529;
+    font-family:"Bebas Neue", sans-serif;
+    font-size: 85px;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+.descricao {
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    padding-bottom: 50px;
+}
+
+.btn {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #0466c8;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    gap: 5px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.btn:hover{
+    transition: all 0.4s;
+    color: #fff;
+    background: #121517;
+    cursor: pointer;
+}
+
+/* Produtos */
+
+#product{
+    position: relative;
+    margin: 50px auto;
+    padding-left: 300px;
+}
+
+.casual{
+    font-size: 50px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    justify-content: center;
+    padding-left: 50px;
+    padding-top: 40px;
+    
+    
+}
+
+/* cards */
+.shop-shoes {
+  display: flex;
+  margin: 50px;
+  gap: 50px;
+  flex-wrap: wrap;
+  cursor: pointer;
+ 
+}
+
+.article-shoes {
+  background-color: #ffffffe7; 
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(15, 14, 14, 0.364);
+  width: 400px;
+  text-align: center;
+  transition: transform 0.4s ease;
+  display: flex;
+  flex-direction: column;
+  height: auto; 
+}
+
+.article-shoes:hover {
+  transform: scale(1.05);
+}
+
+.tenis-shoes {
+  width: 99%;
+  height: auto; 
+  object-fit: contain;
+  
+}
+
+.shoes {
+  font-weight: bold;
+  font-size: 18px;
+  margin: 10px 0 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+}
+
+
+/* Descrição do tênis */
+.descricao-shoes {
+  font-size: 14px;
+  color: #666;
+  margin: 10px auto;
+}
+
+.shoes-paragrafo {
+  padding-top: 30px;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 10px 0 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+ 
+}
+
+.descricao-shoes-text {
+  font-size: 14px;
+  color: #666;
+  margin: 10px auto;
+  padding-bottom: 10px;
+}
+
+.shoes-paragrafo1{
+  padding-top: 10px;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 10px 0 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+}
+
+
+.descricao-shoes-text1 {
+  font-size: 14px;
+  color: #666;
+  margin: 10px auto;
+  padding-bottom: 10px;
+}
+
+.descricao-shoes2 {
+    padding-bottom: 10px;
+    font-size: 14px;
+    color: #666;
+    margin: 10px auto;
+    
+}
+
+
+/* Button-shoes */
+
+.btn-shoes {
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #0466c8;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  gap: 6px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+  margin-top: auto; 
+  margin-bottom: 0;
+}
+
+.btn-shoes:hover {
+    transition: all 0.4s;
+    color: #fff;
+    background: #121517;
+    cursor: pointer;
+}
+
+/* About */
+
+#about { 
+    padding-top: 50px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    padding-left: 350px;
+    margin: 0 auto;
+     cursor: pointer;
+}
+
+.article-about{
+    background-color: #fff;
+    border-radius: 15px;
+    position: relative;
+    display: flex;
+    margin: 15px auto;
+    box-shadow: 0 4px 8px rgba(15, 14, 14, 0.364);
+   
+}
+
+.text-abouts {
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    }
+
+.article-about:hover {
+ transform: scale(1.05);
+ 
+}
+
+.title-abouts {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.store-about {
+    display: flex;
+    margin: 0 auto;
+    padding-right: 200px;
+    
+   
+}
+
+footer {
+    background-color: #212529;
+    padding: 50px;
+}
+
+.text-footer {
+    color: #fff;
+    text-align: center;
+}
+
+address {
+    text-align: center;
+}
+.link-footer {
+color: #fff;
+}
+
+
+/* MENU HAMBURGUER */
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 30px;
+    cursor: pointer;
+}
+
+.menu-toggle span {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 4px;
+    transition: all 0.3s ease;
+}
+
+.menu-toggle.open span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+}
+.menu-toggle.open span:nth-child(2) {
+    opacity: 0;
+}
+.menu-toggle.open span:nth-child(3) {
+    transform: rotate(-45deg) translate(6px, -6px);
+}
+
+@media (max-width: 1200px) {
+    header {
+        flex-wrap: wrap;
+        height: auto;
+        padding: 10px 20px;
+    }
+
+    .container-header {
+        padding-left: 0;
+    }
+
+    nav {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: #000;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        z-index: 1000;
+        padding: 20px 0;
+    }
+
+    nav.open {
+        display: flex;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .menu-toggle {
+        display: flex;
+    }
+
+    .hero {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .hero-img,
+    .hero-title {
+        margin: 0;
+        padding: 20px 0;
+    }
+
+    #product {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .shop-shoes {
+        justify-content: center;
+    }
+
+    #about {
+        flex-direction: column;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .store-about {
+        padding: 20px;
+        justify-content: center;
+    }
+
+    footer {
+        padding: 20px;
+    }
+}
+
