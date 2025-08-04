@@ -1,6 +1,7 @@
 # Store Nike Buy 👟
 
-Projeto de uma landing page inspirada na marca Nike, criada para treinar HTML, CSS e JavaScript.
+Loja virtual fictícia inspirada no design da Nike, criada com foco em front-end responsivo.  
+Projeto desenvolvido para praticar HTML, CSS e JavaScript puro, com foco em layout, responsividade e experiência do usuário.
 
 ## 🖼️ Preview do Projeto
 
@@ -18,6 +19,11 @@ Projeto de uma landing page inspirada na marca Nike, criada para treinar HTML, C
 - Seções de produtos casuais e formais
 - Página "Sobre" com ícones e descrição da loja
 - Botões "Buy Now" simulando ação de compra
+
+---
+
+## 🌐 Acesse o projeto
+👉 [Clique aqui para ver o projeto online](https://store-nike-buy.vercel.app/)
 
 ---
 
